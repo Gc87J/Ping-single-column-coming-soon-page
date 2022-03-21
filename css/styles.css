@@ -6,4 +6,81 @@
 
 body {
   font-family: "Libre Franklin", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 15%;
+  padding-bottom: 8%;
+}
+header img {
+  width: 15%;
+}
+
+form {
+  text-align: center;
+  line-height: 2;
+}
+form p:nth-of-type(1) {
+  font-weight: 700;
+  color: #151f29;
+  font-size: 1.4rem;
+}
+form p:nth-of-type(1) span {
+  color: #969696;
+  font-weight: 300;
+}
+form p:nth-of-type(2) {
+  color: #151f29;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+form input {
+  margin-top: 20px;
+  height: 40px;
+  width: 70%;
+  border-radius: 30px;
+  padding-left: 30px;
+}
+form button {
+  height: 40px;
+  width: 70%;
+  border-radius: 30px;
+  margin-top: 8px;
+  color: #fff;
+  background-color: #4f7df3;
+  border: none;
+}
+
+.img-container {
+  margin-top: 18%;
+  text-align: center;
+}
+
+.social-media-container {
+  margin-top: 20%;
+}
+.social-media-container .social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.social-media-container .social-links li {
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 50px;
+}
+.social-media-container .social-links li a {
+  color: #4f7df3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+footer P {
+  font-size: 0.7rem;
+  color: #969696;
 }/*# sourceMappingURL=styles.css.map */
